@@ -1,0 +1,97 @@
+.btn-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.btn{
+    background-color: #1E201E;
+    color: #ECDFCC;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+.btn:hover{
+    background-color: #3C3D37;
+    transition:  0.s ease;
+    transform: scale(1.05);
+}
+.img-icon{
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    margin: auto 10px;
+}
+.feature-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+
+}
+.feature{
+    display: flex;
+    align-items:start;    
+    justify-content:left;
+    margin: 20px auto;
+    background-color: #697565;
+    color: #ECDFCC;
+    width: 65%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 17px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+.feature:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+@media screen and (max-width: 500px){
+    body{
+    
+        padding: 5px 10px;
+    }
+    .feature-container{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        padding: 20px;
+    }
+    .feature{
+        width: 60
+    }
+    .img-icon{
+        width: 40px;
+        height: 40px;
+        margin: auto 5px;
+    }
+    .btn-container{
+        position: fixed;
+        bottom: 10px;
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+    .btn{
+        padding: 5px 10px;
+        font-size: 1rem;
+        margin: 0 5px;
+    }
+    .app-title{
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+    .text-primary{
+        font-size: 2rem;
+    }
+    
+
+
+}

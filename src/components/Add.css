@@ -1,0 +1,74 @@
+.text-primary{
+    color: #1E201E;
+    font-size: 3rem;
+    margin-top: 20px;
+}
+.add-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+input{
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.emoji{
+    margin: 0 auto;
+    width: 24%;
+}
+.btn-select{
+    width: 24%;
+}
+.input-emoji{
+    width: 25%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+select{
+    width: 51%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.link{
+    width: 24%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+}
+@media screen and (max-width: 500px){
+    input{
+        width: 60%;
+    }
+    select{
+        width: 66%;
+    }
+    .emoji{
+        width: 50px;
+        height: 50px;
+    }
+    .btn-select{
+        font-size: 11px;
+        padding: 10px ;
+        width: 30%;
+    }
+    .input-emoji{
+        width: 30%;
+    }
+    .add-container{
+        padding: 10px;
+    }
+
+    
+}
